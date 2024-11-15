@@ -1,9 +1,11 @@
-﻿namespace Emne3;
+﻿using Emne3.assignments;
+
+namespace Emne3;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Assignment315F.Run(true);
     }
 }
