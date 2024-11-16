@@ -2,10 +2,15 @@
 
 namespace Emne3;
 
-class Program
+internal static class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-        Assignment315F.Run(true);
+
+        IAssignement assignement;
+        
+        assignement = new Assignment315F(true);
+        
+        assignement.Run();
     }
 }
