@@ -3,13 +3,10 @@ namespace Emne3.assignments;
 
 // To move the a number on the board, input the number you want to move,
 // followed by the direction. eks: 1 left, 7 up, 3 right ...
-public class Assignment315F: IAssignement
+public class Assignment315F(bool randomBoard) : IAssignement
 {
-   private readonly Board _board;
-   public Assignment315F(bool randomBoard)
-   {
-      _board = new Board(randomBoard);
-   }
+   private readonly Board _board = new(randomBoard);
+
    public void Run()
    {
       while (true)
