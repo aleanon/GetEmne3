@@ -12,9 +12,9 @@ public class Assignment315F(bool randomBoard) : IAssignement
       while (true)
       {
          _board.Draw();
-         var command = Console.ReadLine().ToLower();
+         var command = Console.ReadLine();
          if (command == "quit") break;
-         _board.ParseCommand(command);
+         if (command != null) _board.ParseCommand(command);
       }
    }   
    
@@ -38,17 +38,17 @@ public class Assignment315F(bool randomBoard) : IAssignement
          Console
             .Write(
                SolvedMessage()
-               + "--------------------------------\n"
+               + "-------------------------------\n"
                + "|         |         |         |\n"
-               + $"|    {PosValue(0)}    |    {PosValue(1)}    |    {PosValue(2)}    |\n" 
+               + $"|    {ValueAtPos(0)}    |    {ValueAtPos(1)}    |    {ValueAtPos(2)}    |\n" 
                + "|         |         |         |\n" 
                + "-------------------------------\n"
                + "|         |         |         |\n" 
-               + $"|    {PosValue(3)}    |    {PosValue(4)}    |    {PosValue(5)}    |\n" 
+               + $"|    {ValueAtPos(3)}    |    {ValueAtPos(4)}    |    {ValueAtPos(5)}    |\n" 
                + "|         |         |         |\n" 
                + "-------------------------------\n"
                + "|         |         |         |\n" 
-               + $"|    {PosValue(6)}    |    {PosValue(7)}    |    {PosValue(8)}    |\n" 
+               + $"|    {ValueAtPos(6)}    |    {ValueAtPos(7)}    |    {ValueAtPos(8)}    |\n" 
                + "|         |         |         |\n" 
                + "-------------------------------\n"
             );
@@ -68,7 +68,7 @@ public class Assignment315F(bool randomBoard) : IAssignement
          return true;
       }
 
-      private string PosValue(int index)
+      private string ValueAtPos(int index)
       {
          return _boardNumbers[index] == 0 ? " " : Convert.ToString(_boardNumbers[index]);
       }
