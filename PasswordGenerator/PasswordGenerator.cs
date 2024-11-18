@@ -23,7 +23,7 @@ public abstract class PasswordGenerator
         var password = GenerateRandomPassword(passwordLength, passwordOptions);
         if (!passwordOptions.AllRequirementsMet())
         {
-            PasswordNotLongEnough();
+            PasswordCanNotMeetRequirements();
             return;
         }
         Console.WriteLine(password);
@@ -170,9 +170,9 @@ public abstract class PasswordGenerator
         return (char)Random.Next(33, 126);
     }
 
-    private static void PasswordNotLongEnough()
+    private static void PasswordCanNotMeetRequirements()
     {
-        Console.WriteLine("Password length is not long enough to meet requirements");
+        Console.WriteLine("Password is not long enough to meet requirements");
     }
 
     private class PasswordOptions
