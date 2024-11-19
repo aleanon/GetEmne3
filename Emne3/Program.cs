@@ -7,10 +7,12 @@ internal static class Program
     private static void Main(string[] args)
     {
 
-        IAssignement assignement;
+        IAssignement assignment;
         
-        assignement = new Assignment315F(true);
-        
-        assignement.Run();
+        // assignment = new Assignment315F(true);
+        assignment = new Assignment316A(); 
+        assignment.Run();
     }
 }
+
+
