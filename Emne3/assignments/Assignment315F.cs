@@ -158,7 +158,7 @@ public class Assignment315F(bool randomBoard) : IAssignement
          var result = new List<int> { randomNumber };
          result.AddRange(RandomNonCollidingNumbers(min, randomNumber - 1));
          result.AddRange(RandomNonCollidingNumbers(randomNumber + 1, max));
-    
+
          return result;
       }
    }
