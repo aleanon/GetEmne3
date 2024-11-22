@@ -10,7 +10,7 @@ public class Assignment323A : IAssignement
                       " - helgardering: HUB\n" + 
                       "Hva har du tippet for denne kampen? ");
         var bet = Console.ReadLine();
-        var match = new Match(); 
+        var match = new Match(bet); 
         while (match.IsRunning())
         {
             Console.Write("Kommandoer: \n" + 
@@ -19,13 +19,11 @@ public class Assignment323A : IAssignement
                           " - X = kampen er ferdig\n" + 
                           "Angi kommando: ");
             var command = Console.ReadLine();
-            match.PerformCommand(command); 
+            if (command == "X") match.Stop();
+            match.GoalScored(command); 
             Console.WriteLine($"Stillingen er {match.HomeGoals()}-{match.AwayGoals()}.");
         }
-
-        var result = match.Result(); 
-        var isBetCorrect = bet.Contains(result);
-        var isBetCorrectText = isBetCorrect ? "riktig" : "feil";
+        var isBetCorrectText = match.IsBetCorrect() ? "riktig" : "feil";
         Console.WriteLine($"Du tippet {isBetCorrectText}");
     }
 }
