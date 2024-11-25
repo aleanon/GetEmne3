@@ -24,10 +24,10 @@ public class TwelveMatches
         for (var index = 0; index < _matches.Length; index++)
         {
             var match = _matches[index];
-            var theMatchNo = index + 1;
+            var matchNo = index + 1;
             var isBetCorrect = match.IsBetCorrect();
             var isBetCorrectText = isBetCorrect ? "riktig" : "feil";
-            Console.WriteLine($"Kamp {theMatchNo}: {match.Result()} - {isBetCorrectText}");
+            Console.WriteLine($"Kamp {matchNo}: {match.Result()} - {isBetCorrectText}");
         }
     }
 

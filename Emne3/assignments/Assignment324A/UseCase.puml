@@ -1,0 +1,13 @@
+@startuml
+Actor User
+
+user -> Bet
+opt betting
+Bet -> U
+Bet -> H
+Bet -> B
+end
+
+
+@enduml
+

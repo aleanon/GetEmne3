@@ -1,6 +1,7 @@
 namespace Emne3.Result;
 
 
+
 // public class Result<T> where T : notnull, IResult
 // {
 //     private T _value;
