@@ -13,11 +13,6 @@ public class Assignment323B : IAssignement
                       "Skriv inn dine 12 tippinger med komma mellom hver (en tipping for hver kamp): ? ");
         var betsText = Console.ReadLine();
         var bets = betsText.Split(',');
-        // var matches = new Match[12];
-        // for (var i = 0; i < 12; i++)
-        // {
-        //     matches[i] = new Match(bets[i]);
-        // }
 
         var matches = new TwelveMatches(bets);
 

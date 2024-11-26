@@ -1,13 +1,16 @@
 @startuml
+
 Actor User
+(Bet)
 
-user -> Bet
-opt betting
+
+
 Bet -> U
-Bet -> H
-Bet -> B
 end
-
-
+'opt Bet
+'Bet -> U
+'Bet -> H
+'Bet -> B
+'end
 @enduml
 
