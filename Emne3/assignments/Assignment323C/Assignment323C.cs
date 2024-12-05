@@ -11,7 +11,7 @@ public class Assignment323C : IAssignement
             gameConsole.Show(board);
             Console.WriteLine("Skriv inn hvor du vil sette kryss (f.eks. \"a2\"): ");
             var position = Console.ReadLine();
-            if (!board.Mark(position, Player.One)) continue;
+            if (!board.MarkSquare(position, Player.One)) continue;
             if (board.IsSolved())
             {
                 if (WillPlayAgain("You"))

@@ -7,7 +7,7 @@ using Emne3.assignments.Assignment323C;
 
 namespace Emne3;
 
-internal static class Program
+public static class Program
 {
     
     private static void Main(string[] args)

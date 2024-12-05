@@ -1,4 +1,46 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAssert_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F98514e314f1feddb3082dbe8507ecec1a81b6491c0db7dc53c2e8c13949e4360_003FAssert_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AList_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F1b81cb3be224213a6a73519b6e340a628d9a1fb8629c351a186a26f6376669_003FList_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AMethodBaseInvoker_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F69ba5438e03a0e3a5d2f133f37405f9e32f9e0abb1fbe0a8cb7145514ff85f_003FMethodBaseInvoker_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F876cd892fc66a9dc8f6afd3704c264acebdfc46aed08089463e8117c21a532_003FString_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelpers_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fbb2a94dce7ca55a596694df58d3ca91c6d9c9c9c9813775e4d1abd0f91dc59_003FThrowHelpers_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AThrowHelpers_002Ecs_002Fl_003AC_0021_003FUsers_003Faleka_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fbb2a94dce7ca55a596694df58d3ca91c6d9c9c9c9813775e4d1abd0f91dc59_003FThrowHelpers_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0403dec3_002D01d3_002D47d6_002D917f_002Dc0ad119276da/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test10AddEnergy3 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test10AddEnergy3&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test11AddEnergy4&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test12AddEnergy5&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test13FluidToGasA&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test14FluidToGasB&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test14FluidToGasC&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=07604078_002Da9e7_002D4608_002Db5c5_002Da4fc82c949e0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test10AddEnergy3 #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test10AddEnergy3&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=31958fe2_002D1399_002D4193_002Db5c1_002D80f08218cffd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test01WaterAt20Degrees" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=72feac92_002D94f4_002D45ee_002D962b_002Dae506da99c50/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test10AddEnergy3 #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test10AddEnergy3&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7df17a9a_002D5b8d_002D4f86_002D9f0e_002D2382b144b246/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test14FluidToGasC #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ca8ab7cb_002De1a1_002D4579_002D9435_002D3b14ceaaf95f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test10AddEnergy3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d808434e_002De48f_002D4e04_002D8761_002Dcb6fd0b05799/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test14FluidToGasC" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::21E5B4A9-1C52-40BD-8B13-10BFA4C22D36::net9.0::Emne3.tests.Tests.Test14FluidToGasC&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

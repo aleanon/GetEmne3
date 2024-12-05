@@ -21,7 +21,7 @@ public class Board
         set => _squares[index] = value;
     }
 
-    public bool Mark(string? position, Player player)
+    public bool MarkSquare(string? position, Player player)
     {
         if (position == null || position.Length < 2) return false;
         
