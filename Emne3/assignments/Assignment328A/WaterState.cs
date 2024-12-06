@@ -1,6 +1,6 @@
 namespace Emne3.assignments.Assignment328A;
 
-[Flags]
+
 public enum WaterState
 {
     Ice,

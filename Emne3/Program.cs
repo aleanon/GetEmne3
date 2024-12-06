@@ -4,6 +4,7 @@ using Emne3.assignments.Assignment321C;
 using Emne3.assignments.Assignment323A;
 using Emne3.assignments.Assignment323B;
 using Emne3.assignments.Assignment323C;
+using Emne3.assignments.Assignment329B;
 
 namespace Emne3;
 
@@ -21,7 +22,8 @@ public static class Program
         // assignment = new Assignment321C();
         // assignment = new Assignment323A();
         // assignment = new Assignment323B();
-        assignment = new Assignment323C();
+        // assignment = new Assignment323C();
+        assignment = new Assignment329B();
         assignment.Run();
              
 
