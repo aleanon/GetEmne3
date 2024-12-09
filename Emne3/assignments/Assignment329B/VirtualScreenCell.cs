@@ -11,7 +11,7 @@ public class VirtualScreenCell
     {
         return (Up, Down, Left, Right) switch
         {
-            (true, true, true, true) => '\u253c',
+            (true, true, true, true) => '\u253c', // 
             (true, true, true, false) => '\u2524',
             (true, true, false, true) => '\u251c',
             (true, true, false, false) => '\u2502',
