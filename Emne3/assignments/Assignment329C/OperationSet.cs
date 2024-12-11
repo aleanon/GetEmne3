@@ -82,12 +82,6 @@ public class OperationSet
             RunOne();
             if (_simulation.IsSolved)
             {
-                var solution = "";
-                foreach (var operation in _operations)
-                {
-                    solution += operationNames[operation] + "\n";
-                }
-                Console.WriteLine(solution);
                 return;
             }
         } while (Next());
