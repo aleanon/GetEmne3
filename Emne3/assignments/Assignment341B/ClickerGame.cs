@@ -21,7 +21,7 @@ public class ClickerGame
             Console.WriteLine("Trykk tast for ønsket kommando.");
             var command = Console.ReadKey().KeyChar;
             commands.RunCommand(command, this);
-        } 
+        }
     }
     
     public void IncreasePoints()

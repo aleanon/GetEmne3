@@ -2,7 +2,7 @@ namespace Emne3.assignments;
 
 public class CommandSet
 {
-    private ICommand[] commands = new ICommand[]
+    private readonly ICommand[] _commands = new ICommand[]
     {
         new IncreasePoints(),
         new RegularUpgrade(),
@@ -12,12 +12,9 @@ public class CommandSet
 
     public void RunCommand(char command, ClickerGame clickerGame)
     {
-        switch (command)
+        foreach (var iCommand in _commands)
         {
-            case ' ': commands[0].Run(clickerGame); break; 
-            case 'K': commands[1].Run(clickerGame); break;
-            case 'S': commands[2].Run(clickerGame); break;
-            case 'X': commands[3].Run(clickerGame); break;
+            if (iCommand.Trigger() == command) iCommand.Run(clickerGame);
         }
     }
     

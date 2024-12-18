@@ -14,8 +14,6 @@ public class Assignment329B : IAssignement
             Console.WriteLine("(press enter for new. ctrl+c=exit)");
             Console.ReadLine();
         }
-        
-        
     }
     
     private static Box[] CreateBoxes()
